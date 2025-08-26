@@ -30,7 +30,7 @@ h1 {
 }
 
 .image-item img {
-    max-width: 50%;  /* 이미지를 50% 크기로 조정 */
+    max-width: 65%;  /* 이미지를 50% 크기로 조정 */
     height: auto;    /* 높이는 자동으로 비율에 맞게 조정 */
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

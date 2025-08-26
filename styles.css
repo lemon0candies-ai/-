@@ -32,7 +32,7 @@ h1 {
 }
 
 img {
-    width: 65%;  /* 이미지 크기 65%로 설정 */
+    width: 45%;  /* 이미지 크기 65%로 설정 */
     margin-bottom: 20px;  /* 이미지 간격 설정 */
     object-fit: cover;  /* 비율 유지하며 자르기 */
 }

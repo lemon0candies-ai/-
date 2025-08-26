@@ -1,38 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    text-align: center;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-h1 {
-    font-size: 3em;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.image-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    width: 65%;
-    margin-bottom: 20px;
-    object-fit: cover;
-}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Graduation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wedding Graduation</h1>
+        <div class="image-wrapper">
+            <img src="https://yourwebsite.com/images/1.png" alt="Wedding 1">
+            <img src="https://yourwebsite.com/images/2.png" alt="Wedding 2">
+            <img src="https://yourwebsite.com/images/3.png" alt="Wedding 3">
+        </div>
+    </div>
+</body>
+</html>

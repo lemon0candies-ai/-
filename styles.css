@@ -29,7 +29,9 @@ h1 {
 
 /* Image container for vertical stacking */
 .image-container {
-    display: block; /* Ensure images are in a column */
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
 }
 
 .image-container img {

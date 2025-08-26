@@ -37,7 +37,9 @@ h1 {
 .image-container img {
     display: block; /* Make each image a block element */
     margin-bottom: 20px; /* Space between images */
-    max-width: 100%; /* Ensure image resizes on smaller screens */
+    width: 100%; /* Let images scale with the container */
     height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent images from exceeding container width */
     border-radius: 8px; /* Optional: adds rounded corners to images */
+    object-fit: contain; /* Ensure image fits within the container without cropping */
 }

@@ -27,15 +27,15 @@ h1 {
     color: #333;
 }
 
-/* Image container to stack images vertically */
+/* Image container for vertical stacking */
 .image-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Space between images */
+    display: block; /* Ensure images are in a column */
 }
 
 .image-container img {
-    max-width: 100%;
-    height: auto;
+    display: block; /* Make each image a block element */
+    margin-bottom: 20px; /* Space between images */
+    max-width: 100%; /* Ensure image resizes on smaller screens */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: adds rounded corners to images */
 }

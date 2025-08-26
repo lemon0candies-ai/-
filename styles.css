@@ -24,7 +24,7 @@ h1 {
 
 .image-gallery {
     display: grid;
-    grid-template-rows: repeat(3, 1fr); /* 세로로 3개의 줄로 설정 */
+    justify-content: center; /* 이미지들을 수직으로 중앙 정렬 */
     gap: 20px;
     justify-items: center;
 }
